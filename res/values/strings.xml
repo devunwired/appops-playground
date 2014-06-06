@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AppOpsPlayground</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_detail">DetailActivity</string>
+
+
+    <string name="app_ops_settings">App ops</string>
+    <string name="app_ops_running">Running</string>
+    <string name="app_ops_never_used">(Never used)</string>
+    <string name="version_text">version <xliff:g id="version_num">%1$s</xliff:g></string>
+</resources>

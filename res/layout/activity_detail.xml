@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.athoc.panic.appopsplayground.app.DetailActivity">
+
+    <TextView
+        android:id="@+id/text_package"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="com.example.packagename"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Package Monitoring"
+        android:onClick="onMonitorClick" />
+
+    <TextView
+        android:id="@+id/text_loc_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    <Button
+        android:id="@+id/btn_loc_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Block Location Operations"
+        android:onClick="onBlockClick" />
+    <Button
+        android:id="@+id/btn_loc_allow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Allow Location Operations"
+        android:onClick="onAllowClick" />
+
+    <TextView
+        android:id="@+id/text_note_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"/>
+    <Button
+        android:id="@+id/btn_note_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:text="Block Notification Operations"
+        android:onClick="onBlockClick" />
+    <Button
+        android:id="@+id/btn_note_allow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Allow Notification Operations"
+        android:onClick="onAllowClick" />
+</LinearLayout>
