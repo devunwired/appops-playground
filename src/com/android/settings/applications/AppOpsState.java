@@ -30,7 +30,7 @@ import android.text.format.DateUtils;
 
 import android.util.Log;
 import android.util.SparseArray;
-import com.athoc.panic.appopsplayground.app.R;
+import com.appopsplayground.app.R;
 
 import java.io.File;
 import java.text.Collator;

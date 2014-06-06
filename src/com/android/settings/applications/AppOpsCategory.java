@@ -38,7 +38,7 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 import com.android.settings.applications.AppOpsState.AppOpEntry;
-import com.athoc.panic.appopsplayground.app.R;
+import com.appopsplayground.app.R;
 
 import java.util.List;
 

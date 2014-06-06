@@ -1,4 +1,4 @@
-package com.athoc.panic.appopsplayground.app;
+package com.appopsplayground.app;
 
 import android.app.Activity;
 import android.app.AppOpsManager;

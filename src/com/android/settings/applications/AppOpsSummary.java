@@ -28,7 +28,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.athoc.panic.appopsplayground.app.R;
+import com.appopsplayground.app.R;
 
 public class AppOpsSummary extends Fragment {
     // layout inflater object used to inflate views

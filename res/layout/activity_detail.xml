@@ -13,12 +13,11 @@
         android:id="@+id/text_package"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textStyle="bold"
-        tools:text="com.example.packagename"/>
+        android:textStyle="bold"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Add Package Monitoring"
+        android:text="@string/detail_monitoring"
         android:onClick="onMonitorClick" />
 
     <TextView
@@ -31,13 +30,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Block Location Operations"
+        android:text="@string/detail_loc_block"
         android:onClick="onBlockClick" />
     <Button
         android:id="@+id/btn_loc_allow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Allow Location Operations"
+        android:text="@string/detail_loc_allow"
         android:onClick="onAllowClick" />
 
     <TextView
@@ -50,12 +49,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:text="Block Notification Operations"
+        android:text="@string/detail_note_block"
         android:onClick="onBlockClick" />
     <Button
         android:id="@+id/btn_note_allow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Allow Notification Operations"
+        android:text="@string/detail_note_allow"
         android:onClick="onAllowClick" />
 </LinearLayout>

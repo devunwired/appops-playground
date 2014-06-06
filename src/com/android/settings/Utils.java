@@ -1,10 +1,11 @@
 package com.android.settings;
 
 import android.content.res.Resources;
+import android.preference.PreferenceFrameLayout;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.athoc.panic.appopsplayground.app.R;
+import com.appopsplayground.app.R;
 
 /**
  * Double Encore, Inc.

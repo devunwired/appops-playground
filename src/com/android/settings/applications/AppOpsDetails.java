@@ -39,7 +39,7 @@ import android.widget.LinearLayout;
 import android.widget.Switch;
 import android.widget.TextView;
 
-import com.athoc.panic.appopsplayground.app.R;
+import com.appopsplayground.app.R;
 import com.android.settings.Utils;
 
 import java.util.List;
